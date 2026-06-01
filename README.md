@@ -29,34 +29,81 @@ O **Trabalho Prático** ainda está em desenvolvimento e as próximas atualizaç
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-- Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+- Você instalou a versão `3.10` ou superior de `python`.
+- Você instalou localmente `git`.
+- Você tem uma máquina `Windows / Linux / Mac`.
+- Você leu toda a documentação do repositório.
 
-## 🚀 Instalando o Repositório
+## 🚀 Instalando o Repositório e Configurando o Ambiente
 Para instalar o repositório do trabalho, siga estas etapas:
 
-Linux e macOS:
-
+**Linux e macOS**:
 ```
 git clone 
+cd tp-md
+python -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+**Windows**:
+
+Abra o PowerShell ou o Prompt de Comando (CMD) e execute:
+```
+git clone 
+cd tp-md
+python -m venv venv
+```
+Se estiver usando o PowerShell:
+```
+venv\Scripts\Activate.ps1
+```
+*(Se der erro de script desabilitado no PowerShell, execute antes: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process)`*
+
+Se estiver usando o CMD comum:
+```
+.venv\Scripts\activate.bat
 ```
 
-Windows:
+Após ativar o ambiente virtual:
 
 ```
-git clone
+pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
-## ☕ Usando o Jupyter Notebook
+## ☕ Configurando o Kernel e Rodando o Jupyter
 
-Para rodar o Jupyter Notebook, siga estas etapas:
+Para garantir que o Jupyter encontre as bibliotecas instaladas no ambiente virtual, registre o kernel antes de rodar o painel.
+
+### Registrar o Kernel (Passo único)
+
+Com o ambiente virtual (venv) ativo no terminal, execute:
 
 ```
-<exemplo_de_uso>
+python -m ipykernel install --user --name=matematica-discreta --display-name="Matemática Discreta (Venv)"
 ```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Forneça uma referência de opções para pontos de bônus!
+### Executar o Jupyter Notebook
+
+Inicie o painel interativo executando na raiz do projeto:
+
+```
+jupyter notebook
+```
+
+### Selecionar o Kernel no Documento
+
+Ao abrir o arquivo `notebook.ipynb`, altere o ambiente de execução:
+
+1. No menu superior, clique em *"Kernel"*.
+
+2. Clique em *"Change kernel" (Alterar Kernel)*.
+
+3. Selecione a opção *"Matemática Discreta (Venv)"*.
+
+[!WARNING]
+*Aviso importante*: Sempre vá em *Kernel > Clear All Outputs* antes de salvar e fazer git commit para evitar conflitos de merge no Git do grupo.
 
 ## 📫 Como Contribuir
 
