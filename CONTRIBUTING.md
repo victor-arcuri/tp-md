@@ -1,6 +1,6 @@
 # Como contribuir?
 
-Este documento define os padrões de desenvolvimento e o fluxo de trabalho para os integrantes do grupo. Como estamos trabalhando em um repositório central compartilhado, seguir estas regras evita conflitos de código e perda de progresso. Em caso de dúvidas, [abra uma issue](https://github.com/iuricode/readme-template/issues/new).
+Este documento define os padrões de desenvolvimento e o fluxo de trabalho para os integrantes do grupo. Como estamos trabalhando em um repositório central compartilhado, seguir estas regras evita conflitos de código e perda de progresso. Em caso de dúvidas, [abra uma issue](https://github.com/victor-arcuri/tp-md/issues/new).
 
 ## 🔄 Fluxo de Desenvolvimento (GitFlow)
 
