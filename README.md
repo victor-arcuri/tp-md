@@ -102,7 +102,7 @@ Ao abrir o arquivo `notebook.ipynb`, altere o ambiente de execução:
 
 3. Selecione a opção *"Matemática Discreta (Venv)"*.
 
-[!WARNING]
+> [!WARNING]
 > *Aviso importante*: Sempre vá em *Kernel > Clear All Outputs* antes de salvar e fazer `git commit` para evitar conflitos de merge no Git do grupo.
 
 ## 📫 Como Contribuir
