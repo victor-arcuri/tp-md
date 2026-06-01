@@ -28,11 +28,11 @@ Mas na prática manter a expressão original é mais fácil.
 
 *[1.1] Teste os exemplos usando Colab.*
 
-**Propiedades**
+**Propriedades**
 $$
 \begin{array}{ll}
 i)\quad & c \mid b \wedge b \mid a ~\Rightarrow ~ c \mid a \\
-ii)\quad & b \mid a \wedge b \mid a' ~\Rightarrow ~ b \mid a\mbox{+}a' \\
+ii)\quad & b \mid a \wedge b \mid a' ~\Rightarrow ~ b \mid a + a' \\
 iii)\quad & b \mid 0 ~~\forall b \in \mathbb{Z} \\
 iv)\quad & 1 \mid a ~~\forall a \in \mathbb{Z} \\
 v) &0 \mid a \iff a=0 \\
