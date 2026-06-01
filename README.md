@@ -39,7 +39,7 @@ Para instalar o repositório do trabalho, siga estas etapas:
 
 **Linux e macOS**:
 ```
-git clone 
+git clone https://github.com/victor-arcuri/tp-md.git
 cd tp-md
 python -m venv venv
 source venv/bin/activate
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 Abra o PowerShell ou o Prompt de Comando (CMD) e execute:
 ```
-git clone 
+git clone https://github.com/victor-arcuri/tp-md.git
 cd tp-md
 python -m venv venv
 ```
