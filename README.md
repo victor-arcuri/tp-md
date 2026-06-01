@@ -62,7 +62,7 @@ venv\Scripts\Activate.ps1
 
 Se estiver usando o CMD comum:
 ```
-.venv\Scripts\activate.bat
+venv\Scripts\activate.bat
 ```
 
 Após ativar o ambiente virtual:
