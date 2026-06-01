@@ -19,7 +19,7 @@ Boas vindas ao repositório do **Trabalho Prático** para o curso de **Matemáti
 
 O **Trabalho Prático** ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
 
-- [ ] Tópico 1
+- [X] Tópico 1
 - [ ] Tópico 2
 - [ ] Tópico 3
 - [ ] Tópico 4
