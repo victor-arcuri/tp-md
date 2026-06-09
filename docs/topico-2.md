@@ -6,7 +6,7 @@
 
 **Teorema** Existem infinitos primos.
 
-**Demonstração (Euclides)** Considere $n=(2\cdot 3\cdot 5\cdot \ldots\cdot p_{max})+1$. Certamente $n>p_{max}$ e $p_i\not\mid\n$ para todo $i$ (já que $p_i \mid n-1$). Portanto, ou $n$ é primo, ou o produto de primos maiores que $p_{max}$.
+**Demonstração (Euclides)** Considere $n=(2\cdot 3\cdot 5\cdot \ldots\cdot p_{max})+1$. Certamente $n>p_{max}$ e $p_i\not\mid n$ para todo $i$ (já que $p_i \mid n-1$). Portanto, ou $n$ é primo, ou o produto de primos maiores que $p_{max}$.
 
 ### Fatos sobre números primos
 
